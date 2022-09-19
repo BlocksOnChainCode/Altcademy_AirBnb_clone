@@ -1,0 +1,14 @@
+/*
+div {
+  border: solid 1px black;
+}
+
+/* SOCIALS */
+#twitter, #instagram, #facebook, #linkedin{
+  width: 64px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
