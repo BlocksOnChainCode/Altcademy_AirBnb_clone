@@ -5,10 +5,15 @@ div {
 
 /* SOCIALS */
 #twitter, #instagram, #facebook, #linkedin{
-  width: 64px;
+  width: 32px;
 }
 
 .img {
   max-width: 100%;
   height: auto;
+}
+
+.dark-banner {
+  height: 200px;
+  margin-top: -200px;
 }
