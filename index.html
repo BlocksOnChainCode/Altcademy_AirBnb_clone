@@ -15,9 +15,9 @@
   <body>
 
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pt-3">
       <a class="navbar-brand" href="#">
-        <img src="./images/airbnb-495243.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="./images/airbnb-495243.png" width="30" height="30" class="d-inline-block align-top" alt="AirBnb Logo">
         <h3 class="d-inline">News</h3>
       </a>
 
@@ -47,10 +47,10 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">English</a>
                 <ul>
-                  <li class="dropdown-item"><a href="#">AU and NZ</a></li>
-                  <li class="dropdown-item"><a href="#">India</a></li>
-                  <li class="dropdown-item"><a href="#">Malaysia</a></li>
-                  <li class="dropdown-item"><a href="#">United Kingdom</a></li>
+                  <li class="dropdown-item"><a class="sub-drop-item" href="#">AU and NZ</a></li>
+                  <li class="dropdown-item"><a class="sub-drop-item" href="#">India</a></li>
+                  <li class="dropdown-item"><a class="sub-drop-item" href="#">Malaysia</a></li>
+                  <li class="dropdown-item"><a class="sub-drop-item" href="#">United Kingdom</a></li>
                 </ul>
               <a class="dropdown-item" href="#">Deutsch</a>
               <a class="dropdown-item" href="#">Espanol (America Latina)</a>
@@ -74,42 +74,42 @@
       </div>
     </nav>
 
-    <hr class="d-none, d-md-block">
+    <hr>
 
     <!--MAIN ARTICLE-->
     <div class="container-fluid w-75">
       <div class="row align-items-center mt-5 mb-5">
         <div class="col-12 col-md-8 order-md-2">
-          <img class="img-fluid rounded" src="./images/Wine_country.jpeg" alt="">
+          <img class="img-fluid rounded" src="./images/Wine_country.jpeg" alt="Grapes in a vineyard">
         </div>
         <div class="col-12 col-md-4 order-md-1">
           <div>
-            <header>
+              <header>
                 <div>
-                  <time class="" datetime="2022-09-14">September 14, 2022</time>
+                  <time datetime="2022-09-14">September 14, 2022</time>
                 </div>
-                <h3 class="">In wine country, US Hosts earned more than $270 million in Q2 2022</h3>
-                </header>
-              <a href="#" class="btn btn-lg btn-danger">Read More</a>
+                <h3 id="main-article">In wine country, US Hosts earned more than $270 million in Q2 2022</h3>
+              </header>
+              <a href="#" class="btn btn-lg btn-danger mt-3">Read More</a>
             </div>
           </div>
         </div>
       </div>
 
-      <hr class="d-none, d-md-block">
+      
 
       <!--LATEST NEWS SECTION-->
-   <div class="container">      
+   <div class="container-fluid w-75">      
     <div class="row">
-      <div class="col-12 col-md-9 border-right">
+      <div class="col-12 col-lg-9">
         <div>
-          <h2>Latest News</h2>
+          <h2 class="font-weight-bold pb-4">Latest News</h2>
         </div>
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <article class="row">
               <div class="col-5">
-                <img class="img-fluid rounded mb-3" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded mb-1 mt-1" src="./images/Article_img_1.jpeg" alt="">
               </div>
               <div class="col-7">
                 <div>
@@ -119,10 +119,10 @@
               </div>
             </article>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <article class="row">
               <div class="col-5">
-                <img class="img-fluid rounded" src="./images/Article_img_2.jpeg" alt="">
+                <img class="img-fluid rounded mb-1 mt-1" src="./images/Article_img_2.jpeg" alt="">
               </div>
               <div class="col-7">
                 <div>
@@ -132,10 +132,10 @@
               </div>
             </article>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <article class="row">
               <div class="col-5">
-                <img class="img-fluid rounded" src="./images/Article_img_3.jpeg" alt="">
+                <img class="img-fluid rounded mb-1 mt-1" src="./images/Article_img_3.jpeg" alt="">
               </div>
               <div class="col-7">
                 <div>
@@ -145,10 +145,10 @@
               </div>
             </article>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <article class="row">
               <div class="col-5">
-                <img class="img-fluid rounded" src="./images/Article_img_4.jpeg" alt="">
+                <img class="img-fluid rounded mb-1 mt-1" src="./images/Article_img_4.jpeg" alt="">
               </div>
               <div class="col-7">
                 <div>
@@ -160,9 +160,9 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div id="follow-us-divider" class="col-12 col-lg-3">
         <div>
-          <h2>Follow us</h2>
+          <h2 class="font-weight-bold pb-4">Follow us</h2>
           <p class="pt-3 pb-3">Get the latest news and travel inspiration</p>
           <img class="m-1" id="twitter" src="./images/Socials/twitter.png" alt="icons created by NajmunNahar - Flaticon">
           <img class="m-1" id="instagram" src="./images/Socials/instagram.png" alt="icons created by NajmunNahar - Flaticon">
@@ -172,96 +172,24 @@
       </div>
     </div>
   </div>
-
-
-      <!--<div class="container-fluid w-75">
-        <div class="row">
-          
-          <div class="col-lg-8 border-right">
-            <div class="row no-gutters">
-              <div class="col-lg-8 p-4">
-                <h2>Latest News</h2>
-              </div>
-              <div class="col-lg-6 pr-2 pb-4">
-
-                <div class="row no-gutters pr-3">
-                  <article class="d-flex flex-row">
-                    <img class="img-fluid rounded mr-2 mb-2 img" src="./images/Article_img_1.jpeg" alt="">
-                    <div>
-                      <h4>An update on diversity and belonging progress at Airbnb</h4>
-                      <time class="" datetime="2022-09-15">September 15,2022</time>
-                    </div>
-                  </article>
-                </div>
-                
-               
-                <div class="row no-gutters pr-3">
-                  <article class="d-flex flex-row">
-                    <img class="img-fluid rounded mr-2" src="./images/Airbnb_clone_small_img1.jpeg" alt="">
-                    <div>
-                      <h4>The Obamas and Brian Chesky announce Voyager Scholarship recipients</h4>
-                      <time class="" datetime="2022-09-13">September 13,2022</time>
-                    </div>
-                  </article>
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="row no-gutters">
-                  <article class="d-flex flex-row">
-                    <img class="img-fluid rounded mr-2 mb-2" src="./images/Airbnb_clone_small_img1.jpeg" alt="">
-                    <div>
-                      <h4>How destinations can benefit from the rise in remote workers</h4>
-                      <time class="" datetime="2022-09-15">September 15,2022</time>
-                    </div>
-                  </article>
-                </div>
-                <div class="row no-gutters">
-                  <article class="d-flex flex-row">
-                    <img class="img-fluid rounded mr-2" src="./images/Airbnb_clone_small_img1.jpeg" alt="">
-                    <div>
-                      <h4>Translation Engine launches Reviews after expanding to Messages this summer</h4>
-                      <time class="" datetime="2022-09-08">September 8,2022</time>
-                    </div>
-                  </article>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="col-lg-4 p-4">
-            <div class="row ml-4">
-              <div>
-                <h2>Follow us</h2>
-                <p class="pt-3 pb-3">Get the latest news and travel inspiration</p>
-                <img class="m-1" id="twitter" src="./images/Socials/twitter.png" alt="icons created by NajmunNahar - Flaticon">
-                <img class="m-1" id="instagram" src="./images/Socials/instagram.png" alt="icons created by NajmunNahar - Flaticon">
-                <img class="m-1" id="facebook" src="./images/Socials/facebook.png" alt="icons created by NajmunNahar - Flaticon">
-                <img class="m-1" id="linkedin" src="./images/Socials/linkedin.png" alt="icons created by NajmunNahar - Flaticon">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
-
-      <hr>
+    
+    
 
       <!--IN BETWEEN SECTION-->
       <div class="container-fluid w-75">
         <div class="row">
           <div class="col-8">
-            <h2>The economic opportunities of hosting</h2>
+            <h2 class="font-weight-bold mt-4 pt-4">The economic opportunities of hosting</h2>
             <p>More people are turning to hosting for the first time. From community stories, to the latest Host earnings data and trends, discover how it has never been easier to host and earn on Airbnb.</p>
           </div>
         </div>
       </div>
 
-      <hr>
+    <hr>
 
-      <!--CARROUSEL TEST-->
+      <!--CARROUSEL-->
       
-      <div class="container">
+      <div class="container-fluid">
           <div class="row">
             <div class="col-12">
               <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
@@ -275,7 +203,7 @@
                       <div class="row">
                         <div class="col-md-4">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_5.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -284,7 +212,7 @@
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_6.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -293,7 +221,7 @@
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_7.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -306,7 +234,7 @@
                       <div class="row">
                         <div class="col-md-4">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_8.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -315,7 +243,7 @@
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_9.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -324,7 +252,7 @@
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_10.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -337,7 +265,7 @@
                       <div class="row">
                         <div class="col-md-4">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_11.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -346,7 +274,7 @@
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_12.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -355,7 +283,7 @@
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                           <div class="article">
-                            <div class="img-area"><img class="img-fluid rounded" src="./images/Article_img_5.jpeg" alt=""></div>
+                            <div class="img-area"><img class="img-fluid hover" src="./images/Article_img_13.jpeg" alt=""></div>
                             <div class="img-text text-light">
                               <h3>article heading</h3>
                               <p>Article summary</p>
@@ -370,11 +298,11 @@
           </div>
       </div>
 
-      <div class="bg-dark dark-banner"></div>
+      <div class="dark-banner"></div>
 
       <!--CATEGORIES-->
 
-      <div class="container">
+      <div class="container-fluid w-75 mb-4">
         <h3 class="m-4">Categories</h3>
         <div class="row">
           <div class="col-12 mb-4">
@@ -398,7 +326,7 @@
           <div class="col-12 col-md-4">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_14.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -407,7 +335,7 @@
           <div class="col-12 col-md-4">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_15.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -416,7 +344,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_16.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -425,7 +353,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_17.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -434,7 +362,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_18.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -443,7 +371,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_19.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -452,7 +380,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_20.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -461,7 +389,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_21.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -470,7 +398,7 @@
           <div class="col-12 col-md-4 col-lg-3">
             <article>
               <div>
-                <img class="img-fluid rounded" src="./images/Article_img_1.jpeg" alt="">
+                <img class="img-fluid rounded" src="./images/Article_img_22.jpeg" alt="">
                 <h4>Article Heading</h4>
                 <p>Article summary</p>
               </div>
@@ -491,17 +419,76 @@
         </div>
       </div>
       
-      <hr>
+      
 
 
       <!--FOOTER-->
-      <footer class="container bg-light">
+      <footer class="container-fluid w-100 bg-light p-5 border-top">
         <div class="row">
-          footer columns
+          <div class="col-12 col-lg-3 mb-4 footer-border">
+            <p class="List-title">Support</p>
+            <ul class="list-unstyled">
+              <li>Help Center</li>
+              <li>AirCover</li>
+              <li>Safety information</li>
+              <li>Cancellation options</li>
+              <li>Our COVID-19 Response</li>
+              <li>Supporting people with disabilities</li>
+              <li>Report a neighborhood concern</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 footer-border">
+            <p class="List-title">Hosting</p>
+            <ul class="list-unstyled">
+              <li>Try hosting</li>
+              <li>AirCover for Hosts</li>
+              <li>Explore hosting resources</li>
+              <li>Visit our community forum</li>
+              <li>How to host responsibly</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 footer-border">
+            <p class="List-title">Community</p>
+            <ul class="list-unstyled">
+              <li>Airbnb.org: disaster relief housing</li>
+              <li>Support Afghan refugees</li>
+              <li>Combating discrimination</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 footer-border">
+            <p class="List-title">About</p>
+            <ul class="list-unstyled">
+              <li>Newsroom</li>
+              <li>Learn about new features</li>
+              <li>Letter from our founders</li>
+              <li>Careers</li>
+              <li>Investors</li>
+            </ul>
+          </div>
+          <div class="col-12 pt-5 border-top">
+            <h6>DISCLAIMER</h6>
+            <p class="w-50">
+              The Airbnb Newsroom is aimed at journalists. 
+              All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. 
+              Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.
+            </p>
+          </div>
         </div>
-        <hr/>
-        <div class="container">
-          copy right terms social
+        <hr />
+        
+          <div class="d-flex">
+            <p>
+              <span>© 2022 Airbnb, Inc. All rights reserved</span>   •  
+              <a href = "#" class="copyright-section">Privacy Policy</a>   •
+              <a href = "#" class="copyright-section">Terms of Use</a>   •
+              <a href = "#" class="copyright-section">Sales and Refunds</a>
+            </p>
+            <div class="d-flex ml-auto">
+              <i class="fab fa-facebook fa-lg px-2"></i>
+              <i class="fab fa-instagram fa-lg px-2"></i>
+              <i class="fab fa-twitter fa-lg px-2"></i>
+              <i class="fab fa-linkedin fa-lg px-2"></i>
+            </div>
         </div>
       </footer>
 

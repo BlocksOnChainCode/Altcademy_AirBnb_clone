@@ -1,11 +1,109 @@
-/*
-div {
-  border: solid 1px black;
+/*-----NAVBAR-----*/
+nav {
+  font-weight: 500;
 }
 
-/* SOCIALS */
+.sub-drop-item {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.nav-item:hover {
+  background-color: rgba(128, 128, 128, 0.25);
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+
+@media (max-width: 1127px){
+  nav {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1128px) {
+  nav {
+    font-size: 20px;
+  }
+}
+
+
+/*------MAIN ARTICLE------*/
+
+#main-article {
+  font-weight: 600;
+}
+
+#main-article:hover {
+  text-decoration: underline;
+}
+
+
+@media (min-width: 770px) and (max-width: 1100px) {
+  #main-article {
+    font-size: 24px;
+  }  
+}
+
+@media (min-width: 1101px) and (max-width: 3000px) {
+  #main-article {
+    font-size: 32px;
+  }  
+}
+
+
+/*------LATEST NEWS SECTION------*/
+@media (min-width: 992px) {
+  #follow-us-divider {
+    border-left: 1px solid gray;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 992px) {
+  #follow-us-divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+/*------CAROUSEL------*/
+
+.hover {
+  border-radius: 25px;
+}
+
+.hover:hover {
+  
+  border: 5px solid white;
+  border-radius: 50px;
+  transition-duration: 1s;
+}
+
+.hover:not(:hover) {
+  border: 5px solid white;
+  border-radius: 75px;
+  transition-duration: 2s;
+}
+
+.article {
+  text-align: center; 
+}
+
+.article:hover {
+  transition-duration: 3s;
+  font-size: 20px;
+}
+
+/*------SOCIALS------*/
 #twitter, #instagram, #facebook, #linkedin{
-  width: 32px;
+  width: 30px;
 }
 
 .img {
@@ -14,11 +112,24 @@ div {
 }
 
 .dark-banner {
-  height: 200px;
+  height: 250px;
   margin-top: -200px;
+  background-color: black;
 }
 
 .categories {
+  margin: 4px;
   border-radius: 25px;
   border: 2px solid black;
+}
+
+.List-title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media (max-width: 988px) {
+  .footer-border {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+  }
 }
