@@ -35,7 +35,6 @@ nav {
 
 
 /*------MAIN ARTICLE------*/
-
 #main-article {
   font-weight: 600;
 }
@@ -84,7 +83,6 @@ nav {
 }
 
 /*------CAROUSEL------*/
-
 .hover {
   border-radius: 25px;
 }
@@ -118,22 +116,21 @@ nav {
   background-color: black;
 }
 
-/*------SOCIALS------*/
-
-
-
-
-
-
+/*------CATEGORIES------*/
 .categories {
   margin: 4px;
   border-radius: 25px;
   border: 2px solid black;
 }
 
+/*------FOOTER------*/
 .List-title {
   font-weight: bold;
   margin-top: 15px;
+}
+
+li {
+  padding: 5px 0px 5px 0px;
 }
 
 @media (max-width: 988px) {
