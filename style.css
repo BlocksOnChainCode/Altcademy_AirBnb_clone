@@ -1,3 +1,9 @@
+/*------GLOBAL STYLES------*/
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*-----NAVBAR-----*/
 nav {
   font-weight: 500;
@@ -53,6 +59,10 @@ nav {
 
 
 /*------LATEST NEWS SECTION------*/
+#twitter, #instagram, #facebook, #linkedin{
+  width: 25px;
+}
+
 @media (min-width: 992px) {
   #follow-us-divider {
     border-left: 1px solid gray;
@@ -101,21 +111,19 @@ nav {
   font-size: 20px;
 }
 
-/*------SOCIALS------*/
-#twitter, #instagram, #facebook, #linkedin{
-  width: 30px;
-}
-
-.img {
-  max-width: 100%;
-  height: auto;
-}
-
+/*------BLACK BANNER------*/
 .dark-banner {
   height: 250px;
   margin-top: -200px;
   background-color: black;
 }
+
+/*------SOCIALS------*/
+
+
+
+
+
 
 .categories {
   margin: 4px;
